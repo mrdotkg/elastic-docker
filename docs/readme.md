@@ -26,7 +26,7 @@
 
 Run the latest version of the Elastic (previously known as ELK) stack with Docker and Docker Compose.
 
-Based on the official Docker images from [Elastic](https://www.docker.elastic.co)
+Based on the official Docker images from [Elastic](https://www.docker.elastic.co).
 
 **Note**: Inbuilt [X-Pack support](https://www.elastic.co/products/x-pack) will give us the ability to analyze any data set by using the searching/aggregation capabilities of Elasticsearch and the visualization power of Kibana.
 

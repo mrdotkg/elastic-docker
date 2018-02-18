@@ -174,8 +174,8 @@ By default, the stack creates the following volumes:
 |---------------------------------------------------|---------------|------
 | /usr/share/elasticsearch/config/elasticsearch.yml | elasticsearch | [conf](elasticsearch/config/elasticsearch.yml)       
 | /usr/share/logstash/config/logstash.yml           | logstash      | [conf](logstash/config/logstash.yml)       
-| /usr/share/logstash/pipeline                      | logstash      | set of [pipelines](logstash/pipeline) (input->filter->output)       
-| /usr/share/logstash/patterns                      | logstash      | [patterns](logstash/patterns) for filtering incoming logs      
+| /usr/share/logstash/pipeline                      | logstash      | [pipelines](logstash/pipeline)       
+| /usr/share/logstash/patterns                      | logstash      | filter [patterns](logstash/patterns)
 | /usr/share/kibana/config/kibana.yml               | kibana        | [conf](kibana/config/kibana.yml)  
 
 ## Configuration

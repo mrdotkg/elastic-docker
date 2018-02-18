@@ -166,15 +166,16 @@ By default, the stack exposes the following ports:
 | 5601  | kibana        |HTTP       
 
 ### Exposed volumes
-By default, the stack creates the following volumes:
 
+By default, the stack creates the following volumes:
 | Volume                                            |Used By Service| For Storing
 |---------------------------------------------------|---------------|------
 | /usr/share/elasticsearch/config/elasticsearch.yml | elasticsearch | [conf](elasticsearch/config/elasticsearch.yml)       
 | /usr/share/logstash/config/logstash.yml           | logstash      | [conf](logstash/config/logstash.yml)       
 | /usr/share/logstash/pipeline                      | logstash      | set of [pipelines](logstash/pipeline) (input->filter->output)       
 | /usr/share/logstash/patterns                      | logstash      | [patterns](logstash/patterns) for filtering incoming logs      
-| /usr/share/kibana/config/kibana.yml               | kibana        | [conf](kibana/config/kibana.yml)       
+| /usr/share/kibana/config/kibana.yml               | kibana        | [conf](kibana/config/kibana.yml)  
+
 ## Configuration
 
 **NOTE**: Configuration is not dynamically reloaded, we will have to restart the stack after any change in the configuration of a component.

@@ -26,13 +26,9 @@
 
 Run the latest version of the Elastic (previously known as ELK) stack with Docker and Docker Compose.
 
-Based on the official Docker images:
+Based on the official Docker images from https://www.docker.elastic.co/
 
-* [elasticsearch](https://github.com/elastic/elasticsearch-docker)
-* [logstash](https://github.com/elastic/logstash-docker)
-* [kibana](https://github.com/elastic/kibana-docker)
-
-**Note**: This version has [X-Pack support](https://www.elastic.co/products/x-pack). It will give us the ability to analyze any data set by using the searching/aggregation capabilities of Elasticsearch and the visualization power of Kibana.
+**Note**: Inbuilt [X-Pack support](https://www.elastic.co/products/x-pack) will give us the ability to analyze any data set by using the searching/aggregation capabilities of Elasticsearch and the visualization power of Kibana.
 
 
 ## Contents
@@ -76,7 +72,7 @@ Based on the official Docker images:
 
 9. [Known Issues](#known-issues)  
 
-10. [Updating stack to a newer elastic version](#updating-stack-to-a-newer-elastic-version)
+10. [Updating to a newer Elastic version](#updating-to-a-newer-elastic-version)
 
 ## Requirements
 
@@ -332,7 +328,7 @@ docker-compose down
 ## Known Issues 
 * `No Gzip support:` We will have to uncompress the data before sending to logstash and we can keep an eye on issue [Add a general purpose gzip codec #1817](https://aws.amazon.com/blogs/developer/php-application-logging-with-amazon-cloudwatch-logs-and-monolog/) raised at logstash official repository. 
 
-## Updating stack to a newer elastic version
+## Updating to a newer Elastic version
 
 To use a different Elastic Stack version than the one currently available in the repository, simply change the version number inside the `.env` file and rebuild the stack with:
 

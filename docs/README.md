@@ -157,6 +157,7 @@ Still in testing. Coming soon ...
 ### Exposed ports
 By default, the stack exposes the following ports:
 
+
 | Port #|Used By Service| For
 |------:|---------------|------------
 | 5000  | logstash      |TCP input       
@@ -166,8 +167,9 @@ By default, the stack exposes the following ports:
 | 5601  | kibana        |HTTP       
 
 ### Exposed volumes
-
 By default, the stack creates the following volumes:
+
+
 | Volume                                            |Used By Service| For Storing
 |---------------------------------------------------|---------------|------
 | /usr/share/elasticsearch/config/elasticsearch.yml | elasticsearch | [conf](elasticsearch/config/elasticsearch.yml)       

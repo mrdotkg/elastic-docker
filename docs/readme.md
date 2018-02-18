@@ -1,4 +1,5 @@
-<pre>              ___                    
+<pre>                                                    
+                   ___                    
                  .'   '.                  
                 /       \           oOoOo 
                |         |       ,==||||| 
@@ -17,7 +18,8 @@
              \         `\/                
              /                            
             /                             
-           /_____</pre>
+           /_____                         
+</pre>
 # Elastic Logging Stack
 
 ![Elastic Stack version](https://img.shields.io/badge/elastic-6.2.1-green.svg?style=flat) 

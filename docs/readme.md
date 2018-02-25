@@ -1,4 +1,4 @@
-![Docker infrastructure diagram ](docker-compose.png)
+![Docker infrastructure diagram ](docker-compose.png "Docker infrastructure diagram for elastic-docker container")
 
 # Elastic Logging Stack
 

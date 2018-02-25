@@ -1,25 +1,5 @@
-<pre>                                                    
-                   ___                    
-                 .'   '.                  
-                /       \           oOoOo 
-               |         |       ,==||||| 
-                \       /       _|| ||||| 
-                 '.___.'    _.-'^|| ||||| 
-               __/_______.-'     '==HHHHH 
-          _.-'` /                   """"" 
-       .-'     /   oOoOo                  
-       `-._   / ,==|||||                  
-           '-/._|| |||||                  
-            /  ^|| |||||                  
-           /    '==HHHHH                  
-          /________"""""                  
-          `\       `\                     
-            \        `\   /               
-             \         `\/                
-             /                            
-            /                             
-           /_____                         
-</pre>
+![Docker infrastructure diagram ](docker-compose.png)
+
 # Elastic Logging Stack
 
 ![Elastic Stack version](https://img.shields.io/badge/elastic-6.2.1-green.svg?style=flat) 

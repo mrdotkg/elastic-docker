@@ -3,7 +3,7 @@
 ## from https://github.com/elastic/logstash-docker/blob/master/build/logstash/config/logstash-x-pack.yml
 #
 http.host: "0.0.0.0"
-path.config: /usr/share/logstash/pipeline
+path.config: /usr/share/logstash/config/pipeline
 xpack.monitoring.elasticsearch.url: http://elasticsearch:9200
 xpack.monitoring.elasticsearch.username: logstash_system
 xpack.monitoring.elasticsearch.password: changeme

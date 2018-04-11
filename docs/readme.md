@@ -306,7 +306,7 @@ docker-compose down
 * [PHP application logging with Amazon CloudWatch Logs and Monolog](https://aws.amazon.com/blogs/developer/php-application-logging-with-amazon-cloudwatch-logs-and-monolog/)
 
 ## Known Issues 
-* `No Gzip support:` We will have to uncompress the data before sending to logstash and we can keep an eye on issue [Add a general purpose gzip codec #1817](https://aws.amazon.com/blogs/developer/php-application-logging-with-amazon-cloudwatch-logs-and-monolog/) raised at logstash official repository. 
+* `No Gzip support:` We will have to uncompress the data before sending to logstash and we can keep an eye on issue [Add a general purpose gzip codec #1817](https://github.com/elastic/logstash/issues/1817) raised at logstash official repository. 
 
 ## Updating to a newer Elastic version
 
